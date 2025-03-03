@@ -19,7 +19,6 @@ This project focuses on building an ML pipeline that combines Named Entity Recog
 - **Text Dataset:** The text dataset is generated manually to include various ways of describing images containing animals.
   • The training process is available in the `notebooks/image_model_training.ipynb` file.
 
-
 ## Dataset Organization
 - The image classification dataset is stored under datasets/images/Animals-10/, and divided into training (train/) and testing (test/) folders.
  • Inside test/, images are categorized into separate folders by class (e.g., butterfly/, cat/, dog/, etc.).
@@ -27,6 +26,11 @@ This project focuses on building an ML pipeline that combines Named Entity Recog
  • ner_dataset.json: The text dataset for named entity recognition.
  • generate_dataset.py: A script to generate additional text-based datasets.
 
+## Weights
+NER Model and Image Model were trained, and the weights are saved by link: 
+https://drive.google.com/drive/folders/14Cem-O6-a-mtq5agm7TAM6vIrzfeJYK8?usp=drive_link
+because they could not be uploaded to GitHub due to their large size. Just save them in the folder `weights`.
+Alternatively, models can be trained using the provided scripts.
 
 ## Model Training
 - **NER Model**: A transformer-based model trained to recognize animal names in text.  
