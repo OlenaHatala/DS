@@ -28,7 +28,7 @@ This project focuses on building an ML pipeline that combines Named Entity Recog
 
 ## Weights
 NER Model and Image Model were trained, and the weights are saved by link: 
-https://drive.google.com/drive/folders/14Cem-O6-a-mtq5agm7TAM6vIrzfeJYK8?usp=drive_link
+https://drive.google.com/drive/folders/1aQAjrUjYTYbd8pM18JiAyTRG5Z0y46QB?usp=drive_link
 because they could not be uploaded to GitHub due to their large size. Just save them in the folder `weights`.
 Alternatively, models can be trained using the provided scripts.
 
